@@ -1,0 +1,37 @@
+
+.Titulo{
+  background-color:chartreuse ;
+  height: 40px ;
+  text-align: center;
+  
+}
+.Cuadros {
+  
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 10px;
+  color: black;
+  width: 20px;
+  display:inline-block;
+  
+}
+.Cuadros div img{
+
+  display:block;
+ 
+}
+
+.Cuadros div button{
+
+  display: inline-block;
+}
+
+
+
+button{
+  size: 10xp;
+  margin-top: 50px;
+  margin-left: 50xp;
+  margin-right: 50xp;
+  
+}
