@@ -13,11 +13,15 @@ function App() {
   let imagenes=[trabajadores, ausentismo, accidentalidad, enfermedadLaboral, vacunacion, administrarSedes ]
   return (
     <div className="App">
-      <div className="Titulo">  Menu principal</div>
-      <div className="Cuadros"></div>
+      <div className="Titulo">  
+        <button>imagen </button>
+        Menu principal
+        </div>
+      
+       
       {nombreTarjetas.map((nombres, i) => {
         return(
-          <div>
+          <div className="Cuadros">
           <h2>{nombres}</h2>
           <img src={imagenes[i]}></img>
           <button>Entar</button>

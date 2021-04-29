@@ -1,29 +1,35 @@
 
 .Titulo{
   background-color:chartreuse ;
-  height: 40px ;
-  text-align: center;
+  text-align:center;
+  margin: auto;
+   
+}
+.Titulo button{
+
+  background:lawngreen;
+  border-style: none;
   
 }
 .Cuadros {
   
-  margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 10px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 200px;
   color: black;
-  width: 20px;
+  border: 1px solid black;
   display:inline-block;
   
 }
-.Cuadros div img{
+.Cuadros h2{
 
-  display:block;
- 
+  text-align: center;
 }
 
-.Cuadros div button{
+.Cuadros img{
 
-  display: inline-block;
+  align-content: center;
 }
 
 
@@ -35,3 +41,4 @@ button{
   margin-right: 50xp;
   
 }
+
