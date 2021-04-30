@@ -14,23 +14,27 @@ function App() {
   return (
     <div className="App">
       <div className="Titulo">  
-        <button>imagen </button>
-        Menu principal
+       
+        Menú principal
         </div>
       
-       
+       <div> 
       {nombreTarjetas.map((nombres, i) => {
         return(
           <div className="Cuadros">
-          <h2>{nombres}</h2>
-          <img src={imagenes[i]}></img>
-          <button>Entar</button>
+            <div>   "" </div>
+            <h2>{nombres}</h2>
+            <img src={imagenes[i]}></img>
+            <button>Entar</button>
           </div>
         )
       })}
-        
+        </div>
+        <footer className="footers"> <p> Desarollado por soluciones en epidemeologia y salud ocupacional PC </p></footer>
     </div>
+   
   );
+  
 }
 
 export default App;

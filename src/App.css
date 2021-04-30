@@ -1,44 +1,78 @@
 
 .Titulo{
-  background-color:chartreuse ;
-  text-align:center;
+  height: 50px;
+  background:rgb(104, 201, 8) ;
   margin: auto;
+  font-size: 15px;
+  text-align: center;
+  font-style: unset ;
+  font-weight: bold;
+  
    
 }
 .Titulo button{
 
-  background:lawngreen;
+  
+  width: 10%;
+  height: 20px;
   border-style: none;
+ background-color: antiquewhite;
+ 
+  
   
 }
 .Cuadros {
   
-  margin-top: 100px;
-  margin-left: 150px;
+  margin-top: 80px;
+  margin-left: 120px;
   margin-right: 100px;
   width: 200px;
+  height: 180px;
   color: black;
   border: 1px solid black;
   display:inline-block;
+  border-radius: 7px;
+  font-size: 10px;
   
+}
+.Cuadros div{
+
+  background:rgb(104, 201, 8);
+  color: rgb(104, 201, 8);
+  width: 200px;
+  margin:auto ;
+  height: 20px;
+
 }
 .Cuadros h2{
 
   text-align: center;
+  margin-top: 0px;
 }
 
 .Cuadros img{
 
-  align-content: center;
-}
-
-
-
-button{
-  size: 10xp;
-  margin-top: 50px;
-  margin-left: 50xp;
-  margin-right: 50xp;
   
+  margin-left: 70px;
 }
 
+
+
+.Cuadros button{
+  margin-left: 15px;
+  width:170px;  
+  height: 30px;
+  color: aliceblue;
+  background: rgb(3, 3, 58);
+  border-radius: 10px;
+}
+
+div{
+
+  margin: 10px;
+}
+
+footer{
+text-align: right;
+background:rgb(104, 201, 8);
+}
